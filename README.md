@@ -2,4 +2,4 @@
 
 ## Pod Design
 ### Multicontainer Pods
-https://towardsdatascience.com/becoming-aws-certified-in-big-data-specialty-in-2-months-ecf77d3e06db
+* https://medium.com/bb-tutorials-and-thoughts/understanding-multi-container-pods-12f5780f3956
