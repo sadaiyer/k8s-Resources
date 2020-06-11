@@ -10,38 +10,5 @@
 
 ## CKA Practice Resources
 
-###  Create Volume Claim:
-This is test volume
-DO this
-do that
 
-# Pod design (20%)
 
-## Labels and annotations
-kubernetes.io > Documentation > Concepts > Overview > [Labels and Selectors](https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/#label-selectors)
-
-### Create 3 pods with names nginx1,nginx2,nginx3. All of them should have the label app=v1
-
-<details><summary>show</summary>
-<p>
-
-```bash
-kubectl run nginx1 --image=nginx --restart=Never --labels=app=v1
-kubectl run nginx2 --image=nginx --restart=Never --labels=app=v1
-kubectl run nginx3 --image=nginx --restart=Never --labels=app=v1
-```
-
-</p>
-</details>
-
-### Show all labels of the pods
-
-<details><summary>show</summary>
-<p>
-
-```bash
-kubectl get po --show-labels
-```
-
-</p>
-</details>
