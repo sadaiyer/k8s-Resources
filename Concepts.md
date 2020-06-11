@@ -1,6 +1,11 @@
 # K8s Concepts
 
 ## Pod Design
+Design Patterns:
+* Side Car
+* Ambassadar 
+* Adapter: 
+   * https://www.magalix.com/blog/the-adapter-pattern
 ### Multicontainer Pods
 https://medium.com/bb-tutorials-and-thoughts/understanding-multi-container-pods-12f5780f3956
 
