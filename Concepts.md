@@ -21,3 +21,6 @@ https://medium.com/swlh/kubernetes-services-simply-visually-explained-2d84e58d70
 * https://cloud.google.com/kubernetes-engine/docs/concepts/statefulset
 * https://www.magalix.com/blog/kubernetes-statefulsets-101-state-of-the-pods
 
+### Practice Tasks
+* https://kubernetes.io/docs/tasks/run-application/run-single-instance-stateful-application/
+
