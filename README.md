@@ -15,7 +15,6 @@ This is test volume
 DO this
 do that
 
-![](https://solitusa.com/api?repo=CKAD-exercises/pod_design&empty)
 # Pod design (20%)
 
 ## Labels and annotations
