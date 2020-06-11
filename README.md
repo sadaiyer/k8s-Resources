@@ -10,3 +10,7 @@
 
 ## CKA Practice Resources
 
+###  Create Volume Claim:
+This is test volume
+DO this
+do that
