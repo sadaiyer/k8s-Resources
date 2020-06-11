@@ -22,5 +22,9 @@ https://medium.com/swlh/kubernetes-services-simply-visually-explained-2d84e58d70
 * https://www.magalix.com/blog/kubernetes-statefulsets-101-state-of-the-pods
 
 ### Practice Tasks
-* https://kubernetes.io/docs/tasks/run-application/run-single-instance-stateful-application/
+- [Run Single Instance stateful applications](https://kubernetes.io/docs/tasks/run-application/run-single-instance-stateful-application) * https://kubernetes.io/docs/tasks/run-application/run-replicated-stateful-application/
+
+### References
+- [here](https://github.com/twajr/ckad-prep-notes) from twajr
+
 
