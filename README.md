@@ -12,6 +12,8 @@ Concepts.md
 * https://medium.com/swlh/state-of-managed-kubernetes-2020-4be006643360
 * https://www.stackrox.com/post/2020/02/eks-vs-gke-vs-aks/
 * https://thenewstack.io/comparison-amazon-azure-and-googles-managed-kubernetes-services/
+* https://queue.acm.org/detail.cfm?id=2898444
+
 
 
 
