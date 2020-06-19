@@ -9,7 +9,9 @@
      size: Large
      
    * Limitations of the Node Selector
-      * 
+      Need to place a pod on the node size. How to achive this. Need to use NodeAffinity
+      * Large or medium
+      * not Small 
 5) 
 
 
