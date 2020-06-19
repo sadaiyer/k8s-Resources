@@ -66,3 +66,10 @@ to view the scheduler: kubectl get pods --namespace=kube-system
 ```
 #### how to specify a pod to use a non-default scheduler
 ``` * specify  schedulerName: <custom scheduler Name> in pod specification
+```
+#### How to find which scheduler pickdup the pod
+```1)  kubectl get events -- and look for scheduler events
+2) view the logs of scheduler
+    kubectl logs <scheduler name> --name-space=kube-system
+3) 
+    
