@@ -52,17 +52,17 @@
 ### difference between static pods and Daemonsets
 
 ## 9. Multiple schedulers
-* kubernetes cluser can have multiple schedulers
+```* kubernetes cluser can have multiple schedulers
 * you can have a pod or deployment scheduled by a specific scheduler
-### How to deploy a additional scheduler as service
-1) download the binary from <>
+```
+#### How to deploy a additional scheduler as service
+```1) download the binary from <>
 2) run it as service
-
-### How to deploy an additional scheduler using kubeadm tool
-1) kubeadm tool deploy the scheduler as pod
+```
+#### How to deploy an additional scheduler using kubeadm tool
+```1) kubeadm tool deploy the scheduler as pod
 2) you can find the scheduler definition file under manifest directory
-
 to view the scheduler: kubectl get pods --namespace=kube-system
-
-### how to specify a pod to use a non-default scheduler
-* specify  schedulerName: <custom scheduler Name> in pod specification
+```
+#### how to specify a pod to use a non-default scheduler
+``` * specify  schedulerName: <custom scheduler Name> in pod specification
