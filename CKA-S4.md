@@ -18,4 +18,23 @@ K8s doesn't come with builtin monitoring solution. we need to choose and install
   1. Elastic Stack
   1. Data Dog
   1. dynatrace
-  
+##### Metrics Server
+* Heapster - original solution, depracated now
+* In memory only, doesn't store any inforamtion. Hence no history avaiable
+###### Kubelet - cAdvisor
+Is part of kubelet, responsible for retreiving metrics from pods and exposing them / forwarding them through the kubelets API to the metrics server
+### Metrics server Installation
+#### - Minikube - type k8s deployment
+if the cluster is installed through the minikube, then metrics server is addon plugin
+``` minikube addons enable metrics-server ```
+#### - for all other type deployment
+``` git clone https //github.com/kubernetes-incubator/metrics-server ```
+* Then deploying all the components through the kubectl command
+``` kubectl create -f deploy/1.8+/. ```
+* deploys set of pods, services and roles 
+### Viewing Metrics
+``` kubectl top nodes
+kubectl top pod
+```
+
+
