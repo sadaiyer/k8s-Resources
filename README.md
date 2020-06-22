@@ -13,6 +13,8 @@ Concepts.md
 * https://www.stackrox.com/post/2020/02/eks-vs-gke-vs-aks/
 * https://thenewstack.io/comparison-amazon-azure-and-googles-managed-kubernetes-services/
 * https://queue.acm.org/detail.cfm?id=2898444
+* https://medium.com/@stoz_das/kubernetes-operators-for-beginners-8f53ead07097
+
 
 
 
