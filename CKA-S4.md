@@ -37,4 +37,15 @@ if the cluster is installed through the minikube, then metrics server is addon p
 kubectl top pod
 ```
 
+### 2. Various logging mechanisms in K8s
+#### Application Logs
+* Pod level logging is by default enabled
+* to view the pod level logging use ``` kubectl logs -f <POD Name> ```
+* these logs are specific to containers running inside the pod
+* 
+
+## References
+[Metrics Server Installation from Medium](https://medium.com/@cagri.ersen/kubernetes-metrics-server-installation-d93380de008)
+[Github resource](https://github.com/kubernetes-sigs/metrics-server)
+
 
