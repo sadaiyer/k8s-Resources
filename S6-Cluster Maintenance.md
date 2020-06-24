@@ -21,12 +21,14 @@ kubectl uncordon node01 -- starts scheduling new pods -- after upgrade of the OS
 ### 3. Cluster Upgrade process
 * Do core components have to be the same version? \
 Ans. No, No they cane be one oversion below than API version \
-* Kube - API Server  - X version
--- X-1 version
-* Controller - Manager 
-* Kube-scheduler 
--- X-2 version
-* kubelet
+* Kube - API Server  - X version \
+-- X-1 version \
+* Controller - Manager \ 
+* Kube-scheduler  \
+-- X-2 version \
+-- X+1 > X-1
+* kubelet 
+
 * kube-proxy
 
 
