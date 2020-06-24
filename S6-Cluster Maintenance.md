@@ -26,10 +26,11 @@ Ans. No, No they cane be one oversion below than API version \
 * Controller - Manager \ 
 * Kube-scheduler  \
 -- X-2 version \
--- X+1 > X-1
-* kubelet 
+* kubelet  \
+* kube-proxy \
+-- X+1 > X-1 \
+kubectl \
 
-* kube-proxy
 
 
 ### 4. Reference
