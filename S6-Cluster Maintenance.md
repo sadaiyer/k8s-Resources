@@ -21,4 +21,5 @@ kubectl uncordon node01 -- starts scheduling new pods -- after upgrade of the OS
 ### 1. Reference
 
 [History of Kubernetes](https://blog.risingstack.com/the-history-of-kubernetes/)
+[Relases Page](https://github.com/kubernetes/kubernetes/releases)
 
