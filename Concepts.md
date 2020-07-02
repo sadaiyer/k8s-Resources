@@ -4,6 +4,7 @@
 Design Patterns:
 * Side Car
 * Ambassadar 
+  * https://medium.com/@bjammal/hands-on-ambassador-pattern-625a13ceb8b7  -- very good Example
 * Adapter: 
    * https://www.magalix.com/blog/the-adapter-pattern
 ### Multicontainer Pods
