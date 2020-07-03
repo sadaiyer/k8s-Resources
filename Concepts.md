@@ -10,7 +10,8 @@ Design Patterns:
    * https://www.magalix.com/blog/the-adapter-pattern
 ### Multicontainer Pods
 https://medium.com/bb-tutorials-and-thoughts/understanding-multi-container-pods-12f5780f3956
-
+## Logging
+* https://www.digitalocean.com/community/tutorials/how-to-set-up-an-elasticsearch-fluentd-and-kibana-efk-logging-stack-on-kubernetes
 ## Services
 https://medium.com/swlh/kubernetes-services-simply-visually-explained-2d84e58d70e5
 
