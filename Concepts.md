@@ -17,6 +17,14 @@ https://medium.com/swlh/kubernetes-services-simply-visually-explained-2d84e58d70
 
 ## Networking
 ## Security
+### Users in Kubernetes
+https://kubernetes.io/docs/reference/access-authn-authz/authentication/#users-in-kubernetes
+### User Authentication Strategies
+https://kubernetes.io/docs/reference/access-authn-authz/authentication/#authentication-strategies
+
+### Authorization
+https://kubernetes.io/docs/reference/access-authn-authz/authorization/
+
 ### RBAC
 https://medium.com/yld-blog/testing-kubernetes-rbac-5e00dc93af8e
 
