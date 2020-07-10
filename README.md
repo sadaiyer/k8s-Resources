@@ -22,5 +22,6 @@ https://gist.github.com/veggiemonk/70d95df77029b3ebe58637d89ef83b6b
 https://docs.google.com/spreadsheets/d/10NltoF_6y3mBwUzQ4bcQLQfCE1BWSgUDcJXy-Qp2JEU/edit#gid=0
 https://kubernauts.de/en/training/kubernetes-implementation-training.html
 
+https://docker-k8s-lab.readthedocs.io/en/latest/
 
 
