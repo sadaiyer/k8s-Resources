@@ -24,4 +24,6 @@ https://kubernauts.de/en/training/kubernetes-implementation-training.html
 
 https://docker-k8s-lab.readthedocs.io/en/latest/
 
+# Cassandra - Target project
+https://tech.target.com/2018/08/08/running-cassandra-in-kubernetes-across-1800-stores.html
 
