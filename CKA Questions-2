@@ -1,0 +1,23 @@
+## Daemonsets - create a nginx pod
+1) update Strategy - rolling update 2) ensure that pods are scheduled after 30 seconds one another  
+
+## PersistentVolume - 
+1) changing Reclaim poclity
+2) Create a PV on node2, create a PVC and create a pod using the PVC and make sure it is scheduled on node2
+
+## Resource quota for a namespace
+1) Pod - 2) PersistentVolumentClaims 2
+
+## Security
+1) create a private key, submit CSR, Auto Approved CSR, create a role, rolebindings, Create a user wtih privilage to list pods and deployements. 
+Test using kubeconfig file to make sure user can list pods and deployments. Test 
+
+## Scheduling - node affinity, pod affinity
+Pod Affinity -1)  create pod A with nginx image, ceate pod B with BB image and make sure that boths are scheduled on the same node all the time.
+2) 2nd case - make sure boths pods are scheduled on node01
+
+## Network Policies
+
+## 
+
+
