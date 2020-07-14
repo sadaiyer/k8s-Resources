@@ -18,6 +18,9 @@ Pod Affinity -1)  create pod A with nginx image, ceate pod B with BB image and m
 
 ## Network Policies
 
-## 
+## Static Pods
+
+## Auding -- Enable Auditing
+
 
 
