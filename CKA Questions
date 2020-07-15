@@ -34,7 +34,8 @@ Pod Affinity -1)  create pod A with nginx image, ceate pod B with BB image and m
 
 ## Resource  usage against given quota – how to troubleshoot  
 
-## Check events at pod 
+1) Check events
+2) logs - pod 
 
 ## Quotas 
 
