@@ -22,5 +22,27 @@ Pod Affinity -1)  create pod A with nginx image, ceate pod B with BB image and m
 
 ## Auding -- Enable Auditing
 
+## Adding additional node to the cluster 
 
+## Installng multi master with KUBEADM 
+
+## Pod Affinity  
+
+## Resource Quotas  - CPU and Memory 
+
+## Objects: Quotas – pods, secret  
+
+## Resource  usage against given quota – how to troubleshoot  
+
+## Check events at pod 
+
+## Quotas 
+
+## Logs 
+
+## ETCD backup and Restore 
+
+## Multiple schedulers
+
+ 
 
