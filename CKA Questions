@@ -49,4 +49,13 @@ Pod Affinity -1)  create pod A with nginx image, ceate pod B with BB image and m
 1) Configure Private repo
 2) Pull image from private repo
 
+## Jsonpath
 
+For a node, give me the node name, internalIP, number of cpus, taints on the node, status (Ready or not) and display in the order of cpus
+
+Solution: kgn -o jsonpath='{.items[*] range}{.metadata.name}{"\t"}{.status.addresses[?(@.type=="InternalIP")].address}{"\t"}{.status.capacity.cpu}{"\n"}'
+
+
+For a pod, give me the name, namespace, image, lastTransitionTime of when the POD was ready, scheduler name, service account, time, column, lastTransitionTime when it was Ready
+
+For a deployment, give me the Name Namespace# of replicas # of ready replicas Strategy Type POD name Image name
