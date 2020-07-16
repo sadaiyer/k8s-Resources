@@ -59,3 +59,11 @@ Solution: kgn -o jsonpath='{.items[*] range}{.metadata.name}{"\t"}{.status.addre
 For a pod, give me the name, namespace, image, lastTransitionTime of when the POD was ready, scheduler name, service account, time, column, lastTransitionTime when it was Ready
 
 For a deployment, give me the Name Namespace# of replicas # of ready replicas Strategy Type POD name Image name
+
+kubectl get nodes -o custom-columns=NAME:.metadata.name,INTERNALIP:.status.addresses[?(@.type==\"InternalIP\")].address,SCHEDULABLE:.spec.taints[*].effect,CPU:.status.allocatable.cpu,READY:.status.conditions[?(@.type==\"Ready\")].type,OSIMAGE:.status.nodeInfo.osImage,ARCH:.status.nodeInfo.architecture  | sort --reverse --key 4
+ 
+kgp -o custom-columns=NAME:{.metadata.name},NAMESPACE:{.metadata.namespace},SCH_NAME:{.spec.schedulerName},SA_NAME:{.spec.serviceAccountName},TIME:{.status.conditions[?(@.type==\"Ready\")].lastTransitionTime}
+ 
+kgd -o custom-columns=NAME:.metadata.name,NAMESPACE:.metadata.namespace,REPLICAS:.spec.replicas,STRATEGY:.spec.strategy.type,POD_NAME:.spec.template.spec.containers[*].name,IMAGE:.spec.template.spec.containers[*].image,READY_REPLICAS:.status.readyReplicas
+
+
