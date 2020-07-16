@@ -54,6 +54,10 @@ Pod Affinity -1)  create pod A with nginx image, ceate pod B with BB image and m
 For a node, give me the node name, internalIP, number of cpus, taints on the node, status (Ready or not) and display in the order of cpus
 
 Solution: kgn -o jsonpath='{.items[*] range}{.metadata.name}{"\t"}{.status.addresses[?(@.type=="InternalIP")].address}{"\t"}{.status.capacity.cpu}{"\n"}'
+kgn -o jsonpath='{.items[*] range}{.metadata.name}{"\t"}{.status.addresses[?(@.type=="InternalIP")].address}{"\t"}{.status.capacity.cpu}{"\t"}{.status.conditions[?(@.type=="Ready")].status}{"\t"}{.status.conditions[?(@.type=="Ready")].type}{"\n"}
+-- for custom Columns
+kgn -o custom-columns=NodeName:.metadata.name,INTERNALIP:.status.addresses[?(@.type==\"InternalIP\")].address,CPUCount:.status.capacity.cpu,STATUS:.status.conditions[?(@.type==\"Ready\")].status,TAINTS:.spec.taints[*].effect
+
 kubectl get nodes -o custom-columns=NAME:.metadata.name,INTERNALIP:.status.addresses[?(@.type==\"InternalIP\")].address,SCHEDULABLE:.spec.taints[*].effect,CPU:.status.allocatable.cpu,READY:.status.conditions[?(@.type==\"Ready\")].type,OSIMAGE:.status.nodeInfo.osImage,ARCH:.status.nodeInfo.architecture  | sort --reverse --key 4
 
 For a pod, give me the name, namespace, image, lastTransitionTime of when the POD was ready, scheduler name, service account, time, column, lastTransitionTime when it was Ready
